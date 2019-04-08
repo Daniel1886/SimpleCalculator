@@ -1,0 +1,93 @@
+html, body, div {
+    margin: 0px;
+    padding: 0px;
+}
+.col-cal {
+    float: left;
+    width: 25%;
+    height: 100%;
+    
+   
+  }
+.col-cal-1 { width: 25%; }
+.col-cal-2 { width: 50%; }
+.col-cal-3 { width: 75%; }
+.col-cal-4 { width: 100%;}
+  
+  .row-cal{
+    height: 20%;
+  }
+  .row-cal:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+  }
+.container-cal{
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    
+    
+    
+}
+.outline{
+    width: 620px;
+    height: 800px;
+    display: block;
+    margin: auto; 
+    background-color:  	#F4A460;
+    border-radius: 10px;
+    box-shadow: 7px 7px 17px -2px black;
+    margin-top: 46px;
+    text-align: center;
+    
+}
+.container-cal button{
+    background-color: #d5f4e6;
+    width: 96%;
+    height: 96%;  
+    border: 3px solid black;     
+    font-size: 46px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+   
+}
+.container-cal button.colored-1{
+    background:  #618685;
+}
+.container-cal button.colored-2{
+    background:  #c94c4c;
+}
+.container-cal button:hover{
+    background-color: darkolivegreen;
+}
+.container-cal button.lastRight{
+
+    border-right: 3px solid black;
+}
+.container-cal button.lastBottom{
+
+    border-bottom: 3px solid black;
+}
+.output-cal{
+    width: 600px;
+    height : 160px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: white;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 160px;  
+}
+.output-cal h1{
+    display: inline;
+    font-size: 49px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
